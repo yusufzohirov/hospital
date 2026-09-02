@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+   <div class="relative min-h-screen overflow-hidden bg-cover bg-center bg-no-repeat text-white" style="background-image: url('./img/image.png');">
+    <div class="absolute inset-0 bg-black/40"></div>
+<div class="relative z-10">
+  <header class="mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
+    <h2 class="text-xl font-bold">Physionic</h2>
+    <nav class="hidden items-center gap-6 text-sm md:flex">
+      <a href="#">Home</a>
+      <a href="#">Product</a>
+      <a href="#">Pricing</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div class="hidden items-center gap-5 md:flex">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-solid fa-cart-shopping"></i>
+      <button class="rounded bg-sky-500 px-5 py-2 text-sm">
+        Get Quote Now</button>
+    </div>
+    <div class="flex items-center gap-4 md:hidden">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-solid fa-cart-shopping"></i>
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </header>
+  <div class="mx-auto grid max-w-6xl items-center gap-12 px-6 py-16 lg:grid-cols-2 lg:py-20">
+    <div class="text-center lg:text-left">
+      <h1 class="text-4xl font-bold leading-tight md:text-6xl">
+        Meet the Best <br>
+        Hospital</h1>
+      <p class="mt-5 text-sm md:text-base">
+        We know how large objects will act,<br>
+        but things on a small scale.</p>
+      <div class="mt-8 flex justify-center gap-4 lg:justify-start">
+        <button class="rounded-full bg-sky-500 px-6 py-3 text-sm">
+          Get Quote Now</button>
+        <button class="rounded-full border border-white px-6 py-3 text-sm">
+          Learn More</button>
+      </div>
+    </div>
+    <form class="mx-auto w-full max-w-sm rounded-md bg-white p-7 text-gray-800">
+      <h2 class="mb-5 text-lg font-bold">
+        Book Appointment
+      </h2>
+      <label class="text-sm">Name *</label>
+      <input type="text" placeholder="Full Name *" class="mt-1 mb-4 w-full rounded bg-gray-100 p-3 text-sm">
+      <label class="text-sm">Email address *</label>
+      <input type="email" placeholder="example@gmail.com" class="mt-1 mb-4 w-full rounded bg-gray-100 p-3 text-sm">
+      <label class="text-sm">Department *</label>
+      <select class="mt-1 mb-4 w-full rounded bg-gray-100 p-3 text-sm">
+        <option>Please Select</option>
+      </select>
+      <label class="text-sm">Time *</label>
+      <select class="mt-1 mb-5 w-full rounded bg-gray-100 p-3 text-sm">
+        <option>4:00 Available</option>
+      </select>
+      <button class="w-full rounded bg-sky-500 py-3 text-sm text-white">
+        Book Appointment
+      </button>
+    </form>
+  </div>
+</div>
+</div>
+
+</body>
+
+</html>
